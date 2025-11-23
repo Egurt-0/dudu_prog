@@ -1,0 +1,28 @@
+{
+    "clientes": [
+        {
+            "ID": 1,
+            "Nome": "Ana",
+            "Idade": 31,
+            "Cidade": "Sao paulo"
+        },
+        {
+            "ID": 2,
+            "Nome": "Carlinhos maia",
+            "Idade": 51,
+            "Cidade": "Bocaiuva do Sul"
+        },
+        {
+            "ID": 3,
+            "Nome": "Frozen da era do gelo",
+            "Idade": 21,
+            "Cidade": "Era do gelo"
+        },
+        {
+            "ID": 4,
+            "Nome": "Xandeco",
+            "Idade": 15,
+            "Cidade": "Piraquara"
+        }
+    ]
+}

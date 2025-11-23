@@ -1,0 +1,40 @@
+
+
+
+
+
+
+
+
+
+
+
+
+New Window == Ctrl + Shift + N
+
+
+New Terminal == Ctrl + Shift + ` (Tecla antes do ESC)
+
+
+New Terminal(cmd) == Ctrl + Shift + C
+
+
+New Terminal(janela de Terminal) == Ctrl + Shift + Alt + `
+
+
+Save file changes == Ctrl + s
+
+
+Ver atalhos == Ctrl + K  Ctrl+S
+
+
+go back == Ctrl + Z
+
+
+go to line/colum ... == Ctrl + G
+
+
+go to file ... == Ctrl + E
+
+
+personalizar vscode == file depois preferencias depois configuracoes depois pesquisa "schemas"

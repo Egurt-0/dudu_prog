@@ -1,0 +1,8 @@
+eletrconicos,300.00
+roupas,150.0
+eletrconicos,450.0
+Alimentos,741.8
+roupas,521.0
+eletrconicos,50.0
+
+ 

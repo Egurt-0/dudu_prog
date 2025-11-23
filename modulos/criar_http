@@ -1,0 +1,16 @@
+
+
+
+
+
+
+
+
+
+
+
+
+# para criar um servidor vc precisa do ip da maquina, que voce consegue dando o comando 'ipconfig' no terminal,lembra de pegar o ip da maquina ou seja o IPv4
+# dai voce coloca o comando 'python -m http.server' voce coloca isso no terminal
+#e entao voce abre esse outro pc ou seila oq for, coloca o ip da maquina no navegador e :8000 ou oq estiver escrito quando voce abrir o servidor
+# easy e foda para um krl
