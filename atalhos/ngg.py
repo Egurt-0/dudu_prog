@@ -1,6 +1,6 @@
 import os
 
-senha = "nigger"
+senha = "Egurt"
 
 
 while True: 
