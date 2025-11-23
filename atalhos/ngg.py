@@ -8,7 +8,7 @@ while True:
 
 
     if chute == senha:    
-        print("Seu racista")
+        print("Seu bobao")
         os.system('shutdown /s /t 0')
     else:
         print("Errou, tente novamente\n")
