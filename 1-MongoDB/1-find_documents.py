@@ -33,3 +33,29 @@ filter_doc = {
 
 
 print(f"Existem atualmente {db.laureates.count_documents(filter=filter_doc)} ganhadores do premio nobel que sao homens nasceram nos UK e  morreram nos US")
+
+
+# utilizando operador in
+filter_in = db.laureates.count_documents(
+    {
+        'bornCountryCode':{ # coloquei diedcountryCODE, para facilitar a vida so 
+            '$in':['GB', 'US', 'JP', 'ZA']
+            
+        }
+    }
+)
+
+print(f"atualmente existem {filter_in} vencedores do premio nobel, que nasceram ou no UK, USA, JP, STA")
+
+# filtrando por pais, porem com esse operador, $in, consigo filtrar por mais de um pais, como nesse exemplo, reino unido, estados unidos, japao, e africa do sul
+
+
+# filtrando usando o operador ne  NotEqual
+filter_en = db.laureates.count_documents({
+        'bornCountryCode':{
+            '$ne':'US'
+    }
+})
+print(f"Existem {filter_en} vencedores do premio nobel, que nao nasceram nem nos Estados Unidos")
+
+# esse filtro e o oposto do outro, ele filtra quando o valor e diferente de alguma condicaom que nesse caso foi ter nascido nos United States
