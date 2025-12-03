@@ -1,10 +1,7 @@
 from  pymongo import MongoClient
 from pprint import pprint
 client = MongoClient()
-
-
 db = client['nobel']
-
 prizes = db['prizes']
 laureates = db['laureates']
 
@@ -42,6 +39,5 @@ numeros = [1, 2, 3, 4, 5, 6]
 pares = [n for n in numeros if n % 2 == 0]
 print(pares)
 # Resultado: [2, 4, 6]
-
 exemplo_dudu = [y/100000000000 for y in range(10)] # ele retorna em notacao cientifica ate kkkkkkkkkk
 print(exemplo_dudu)
