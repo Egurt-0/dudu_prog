@@ -1,8 +1,9 @@
 import re
 
-#*****************************************************
-# EU ACHO, QUE ESSE MODULO SERVE PARA VERIFICAR COISAS
-#*****************************************************
+#*********************************************************************************************
+#permite buscar, manipular e extrair padrões complexos de texto de forma poderosa e flexível,
+#como encontrar todos os emails, números de telefone ou validar formatos                               #
+# ********************************************************************************************
 
 
 
@@ -34,7 +35,6 @@ for f in phrases:
         print(f"nao corresponde: {f}")
 
 # 5 - verificando o sinal de uma string
-
 rule_end = r'!$'
 phrase2 = "O dia esta lindo"
 match = re.search(rule_end, phrase2)
