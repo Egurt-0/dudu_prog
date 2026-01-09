@@ -46,7 +46,7 @@ l_initial_date = Label(bottom_frame, text="Data Atual", height=1, padx=0, pady=0
 l_initial_date.place(x=50, y=30)
 
 cal_initial_date = DateEntry(bottom_frame, width=10, background="darkblue", foreground="white",
-                             borderwidth=2, date_pattern="mm/dd/y", year=2025)
+                             borderwidth=2, date_pattern="mm/dd/y", year=2024)
 cal_initial_date.place(x=170, y=30)
 
 l_birth_date = Label(bottom_frame, text="Data de Aniversário", height=1, padx=0, pady=0,
@@ -107,4 +107,4 @@ b_calculate_age = Button(bottom_frame, text="Calcular Idade", width=20, height=1
                          overrelief=RIDGE, command=calculate_age)
 b_calculate_age.place(x=60, y=225)
 
-window.mainloop() 
+window.mainloop()
