@@ -12,7 +12,7 @@ cursor = conexao.cursor() # aqui estou apenas criando essa varivavel cursos e de
 
 
 
-# aqui estou criando uma tabela no bando de dados, atraves do cursos.execute
+# aqui estou criando uma tabela no banco de dados, atraves do cursos.execute
 # nessas linhas de codigo a baixo, veremos que todas os comandos do SQL estarao em maiusculo e o que nao for,ou seja, variavei e etc.
 # deixaremos em minusculo
 cursor.execute(
@@ -32,4 +32,4 @@ cursor.execute(
 
 # fechando a conexao
 conexao.close()
-print("tabela foi criada") # isso serve para vermos se o codigo deu certo, nao der erro e tudo rodar correto, teremos esse print no final
+print("tabela foi criada") # isso serve para vermos se o codigo deu certo, se nao der erro e tudo rodar correto, teremos esse print no final

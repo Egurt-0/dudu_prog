@@ -12,7 +12,6 @@ while True:
 # novamnte, comandos do SQL em maiusculo e o resto em minusculo
     cursor.execute(
     """
-    
     INSERT INTO filmes(nome, ano, nota)
     VALUES('duduu', 2010, 67.0)
     """    

@@ -11,7 +11,6 @@ cursor = conexao.cursor()
 id = 67 # definindo o id do item que quero atualizar
 cursor.execute( # comandos do SQL em maiusculo e variaveis em minusculo
     """
-
     UPDATE filmes SET nome = ?
     WHERE id = ?
     """,
@@ -30,6 +29,6 @@ print("Dados atualizados")
 # nesse caso, queria atualizar o nome, entao coloquei nome = ? e depois nos parenteses embaixo coloquei o novo valor, para sobrepor o antigo
 # mas eu posso fazer isso como qualquer valor da lista,por exemplo: nota = ? e nos parenteses coloco a nota que quero sobrepor a antiga
 
-# linha 16 , eu apenas digo que ele so vai aplicar essas alteracoes, fazer esse update, aonde o id for igual a ?
+# linha 18 , eu apenas digo que ele so vai aplicar essas alteracoes, fazer esse update, aonde o id for igual a ?
 # nesse caso o id que escolhi foi 67
 # ou seja, ele so vai alterar o nome da lista que tem o id 67, mas nenhuma

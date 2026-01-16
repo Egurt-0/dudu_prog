@@ -13,7 +13,6 @@ games = [
 for game in games:
     cursor_opj.execute(
         """
-       
         INSERT INTO games(name, year, score)
         VALUES (%s, %s, %s)
         """, game

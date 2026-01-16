@@ -16,4 +16,4 @@ iface = gr.Interface(
     description="Calcule o fatorial de um numero",
 )
 
-iface.launch()
+iface.launch(True) # quando coloco o True, estou deixando esse link Publico

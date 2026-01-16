@@ -13,7 +13,7 @@ print(os.getcwd())
 
 
 
-# 2 - listas arquivos e pastas 
+# 2 - listas arquivos e pastas desse enviroment
 print(os.listdir())
 
 
@@ -51,6 +51,7 @@ def turn_off_half_hour():
 # funcao para desligar o pc em 5 segudos
 def turn_off_5s():
     os.system('shutdown /s /t 5')
+
 
 def cancel_shutdown():
     os.system('shutdown /a')
